@@ -7,4 +7,5 @@ A collection of various Unity packages made for tweaking and improving your move
 
 ### Description
 This repository consists of 2 Unity packages, "Faster_Avatar_Sprint_Speed" which allows you to sprint faster (only on desktop) and "Faster_Avatar_Flight" which is a box collider flight system that allows you to fly ridiculously fast in any direction (along a 2D plane).  
+ 
 Both of the Unity packages contain a README that explains how to incorporate the system onto your own avatar.  
