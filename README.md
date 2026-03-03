@@ -30,4 +30,4 @@ It works by constraining your avatar's main object to an object under it, and be
  
 It also constrains your armature to an object in front of you to offset the other object, this makes your avatar stay where it is supposed to visually, rather than being sent behind you.  
  
-An object above the 2 offsets controls your speed, based off how far away they are from the origin, and the direction you are flying, based off that objects rotation.  
+An object above the 2 offsets controls your speed via scale, based off how far away they are from the origin, and the direction you are flying, based off that objects rotation.  
