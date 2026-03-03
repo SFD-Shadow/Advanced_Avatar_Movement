@@ -18,7 +18,7 @@ This is possible because of the `"(VRC Animator Temporary Pose Space)"` script, 
 > [!IMPORTANT]
 > This system only works on desktop, and when you turn it off, you teleport backwards an equal distance to how far forward you went.
 
- `"Faster_Avatar_Flight"`
+ `"Faster_Avatar_Flight"`  
 This system suspends your avatar in-air using a box collider; While being suspended, a 4-axis radial can be used to send you flying in that respective direction (forward, back, left, right) relative to the direction you're looking.  
 It works by constraining your avatar's main object to an object under it, and behind it. This creates an infinite feedback loop that will send you in the opposite direction of where that object is.  
 It also constrains your armature to an object in front of you to offset the other object, this makes your avatar stay where it is supposed to visually, rather than being sent behind you.  
