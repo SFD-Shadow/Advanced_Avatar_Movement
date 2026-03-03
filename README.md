@@ -17,6 +17,8 @@ This system is almost entirely animation driven, it animates your avatar's muscl
 It very slowly plays through an animation that is moving your avatar 5,000 meters forward, so if you use it for long enough, it will eventually end.  
  
 This is possible because of the `"(VRC Animator Temporary Pose Space)"` script, which changes the position of your avatar's viewport to the current location of your avatar's head bone.  
+
+This system requires a custom locomotion system to avoid interference from your avatar's animations moving your head, which would change where your viewport goes.  
  
 > [!IMPORTANT]
 > This system only works on desktop, and when you turn it off, you teleport backwards an equal distance to how far forward you went.
